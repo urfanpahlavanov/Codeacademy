@@ -2,7 +2,7 @@
 namespace app{
 internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main1(string[] args)
     {
         int say;
             Console.Write("eded daxil edin");

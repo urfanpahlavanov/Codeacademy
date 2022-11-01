@@ -1,10 +1,10 @@
 
 using System;
-namespace app{
+namespace appp{
 internal class Program1
 {
   
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
       //Task1.Ededin reqemlerinin en boyuyunu tapan proqram
       int eded=15374,max=0;

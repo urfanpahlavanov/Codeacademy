@@ -1,5 +1,5 @@
 ﻿using System;
-namespace app{
+namespace app1{
 internal class Program
 {
     private static void Main1(string[] args)

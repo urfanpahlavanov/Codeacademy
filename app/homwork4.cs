@@ -3,7 +3,7 @@ namespace app{
 internal class Program1
 {
   
-    private static void Main(string[] args)
+    private static void Main3(string[] args)
     {
         //Task1.massivin en kicik ve boyuk elementlerindem basqa qalan elementlerin cemi
 int[] arr={12,4,25,6,2,2,3,2,8};

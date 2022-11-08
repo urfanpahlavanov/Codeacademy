@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First html</title>
+</head>
+<body>
+
+    <!-- Assignment 1 -->
+    <section>
+        <h1>Qiz Qalasi</h1>
+        <img src="img/qizqala.jpg" alt="">
+    </section><br><br>
+
+
+    <!-- Assignment 2 -->
+    <section>
+        <h1>Baku Nights</h1>
+        <img src="img/baku nights.jpg" alt="" width="500" height="300">
+    </section><br><br>
+
+
+    <!-- Assignment 3 -->
+    <section>
+        <a href="https://code.edu.az/">
+            <img src="img/code academy.jpg" alt="" width="300" height="150">
+        </a>
+    </section><br><br>
+
+
+    <!-- Assignment 4 -->
+    <section>
+        <table border="2">
+            <tr>
+                <th>Book name</th>
+                <th>Author</th>
+                <th>Weeks on List</th>
+            </tr>
+            <tr>
+                <td>The Mirror & the Light</td>
+                <td>Hilary Mantel</td>
+                <td>New this Week</td>
+            </tr>
+            <tr>
+                <td>Journey of the Pharaosh</td>
+                <td>Clive Cussler and Graham Brown</td>
+                <td>New this Week</td>
+            </tr>
+            <tr>
+                <td>Where the Crawdads Sign</td>
+                <td>delia Owens</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>American Dirt</td>
+                <td>Jeanine Cummings</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>little Fires Everywhere</td>
+                <td>Celeste Ng</td>
+                <td>57</td>
+            </tr>
+        </table><br><br>
+    </section>
+
+    <!-- Assignment 5 -->
+    <section>
+        <h1>Lists</h1>
+
+        <h2>Movies I Like</h2>
+        <ul>
+            <li>Star Wars</li>
+            <li>The Shawshank Redemption</li>
+            <li>The Matrix</li>
+            <li>The Goonies</li>
+            <li>Deadpool</li>
+        </ul><br><br>
+
+        <h2>Top 5 TV Shows</h2>
+        <ol>
+            <li>Better Call Saul</li>
+            <li>Rick and Morty</li>
+            <li>Black Mirror</li>
+            <li>The Handmaind`s Tale</li>
+            <li>True Detective</li>
+        </ol><br><br>
+
+        <h2>Definitions</h2>
+        <dl>
+            <dt>daft</dt>
+            <dd>senseless, stupit, or foolish</dd>
+            <dt>prerequisite</dt>
+            <dd>required beforehand</dd>
+            <dt>myriad</dt>
+            <dd>a countless or extremly great number</dd>
+        </dl><br><br>
+
+        <h2>A Nested List of Animals</h2>
+        <ul>
+            <li>Birds</li>
+            <ul>
+                <li>Flamingos</li>
+                <li>Pelicans</li>
+                <li>Road Runners</li>
+            </ul>
+            <li>Insects</li>
+            <ul>
+                <li>Grasshoppers</li>
+                <li>Lady Bugs</li>
+                <li>Moths</li>
+            </ul>
+            <li>Reptiles</li>
+            <ul>
+                <li>Aligators</li>
+                <li>Bearded Dragosn</li>
+                <li>Iguanas</li>
+            </ul>
+        </ul><br><br>
+    </section>
+
+    <!-- Assignment 6 -->
+    <section>
+        <h2>Number Field</h2>
+        <p>The input type="number" defines a numeric input field.</p>
+        <p>You can the min and max attributes add numeric restrictions in the input field;</p>
+        <div>
+            Quantity (between 1 and 5);
+            <input type="number" min="1" max="5">
+            <input type="submit">
+        </div><br><br>
+
+
+        <h2>Numeric Steps</h2>
+        <p>Dependig on browser support: Fixed steps will apply in the input field</p>
+        <div>
+            Quanity:
+            <input type="number" min="10" step="10">
+            <input type="submit">
+        </div><br><br>
+        
+
+        <h2>Data Field</h2>
+        <p>The input type="date" is used for input fields that sould contain a date.</p>
+        <div>
+            Brithday: 
+            <input type="date">
+            <input type="submit">
+        </div><br><br>
+
+
+        <h2>Email Field</h2>
+        <p>The input type="email" is used for input fields that should contain an e-mail address:</p>
+        <div>
+            Enter your email: 
+            <input type="email" maxlength="20">
+            <input type="submit">
+        </div>
+        <p>Note that the form itself is not visible.</p>
+        <p>Also note that the defaul width of a text field is 20 characters.</p><br><br>
+
+
+        <h2>Text field</h2>
+        <p>The input type="text" defines a one-line text input field</p>
+        <div>
+            <label for="first-name">First name:</label><br>
+            <input type="text" id="first-name" maxlength="20"><br>
+            <label for="last-name">Last name:</label><br>
+            <input type="text" id="last-name" maxlength="20"><br><br>
+            <input type="submit">
+        </div><br><br>
+
+
+        <h2>Password field</h2>
+        <p>The input type="password" defines a password field</p>
+        <div>
+            <label for="username">Username:</label><br>
+            <input type="text" maxlength="15"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" maxlength="8"><br><br>
+            <input type="submit">
+        </div><br><br>
+
+        <h2>Radio Buttons</h2>
+        <p>The input type="radio" delines a radio button:</p>
+        <input type="radio" name="choos" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="choos" id="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="choos" id="other">
+        <label for="other">Other</label>
+    </section><br><br>
+
+    <!-- Assignment 7 -->
+    <section>
+        <h1>Awesome Header</h1>
+
+        <h2>Smaller Awesome Header</h2>
+
+        <h3>Even Smaller Header</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit id aut molestias, dolor placeat quis! Reprehenderit ratione natus ad non porro optio, et laborum in error voluptates facilis consectetur architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad provident cumque nulla soluta impedit sapiente adipisci libero quisquam mollitia, labore maxime beatae ipsam assumenda tempora ratione vero quas. Minus, veniam.</p>
+
+        <img src="img/vuqarbileceri.jpg" alt="" width="200">
+
+        <h4>Menu Links</h4>
+
+        <ul>
+            <li>Google</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+        </ul>
+    </section>
+</body>
+</html>
